@@ -3,10 +3,13 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     font-family: Roboto;
     display: flex;
+}
+
+.header {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
@@ -23,6 +26,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     gap: 24px;
+    font-weight: 400;
 }
 
 ul {
@@ -33,4 +37,18 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 24px;
+    font-size: 18px;
+}
+
+.content {
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
 }
