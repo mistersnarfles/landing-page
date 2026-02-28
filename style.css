@@ -80,7 +80,7 @@ h1 {
     font-weight: 900;
 }
 
-button {
+.button-one {
     background-color: #3882F6;
     border-radius: 8px;
     border-style: hidden;
@@ -142,6 +142,7 @@ button {
     align-items: center;
     justify-content: center;
     padding: 100px 350px;
+    flex: 1;
 }
 
 .quote {
@@ -163,4 +164,57 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 200px;
+    flex: 1;
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    padding-left: 100px;
+    padding-right: -100px;
+}
+
+.ad-button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.ad-button-containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.ad-first {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ad-second {
+    margin: 0;
+    color: #e5e7ebe6;
+    font-size: 16px;
 }
